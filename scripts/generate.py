@@ -38,8 +38,8 @@ def process_html_file(file_path):
 
 def build_structure():
     # base_path is relative to the script's location (scripts/generate.py)
-    # This correctly resolves to /project_root/pages/resources
-    base_path = Path(__file__).parent / "../pages/resources" 
+    # This correctly resolves to /project_root/docs/resources
+    base_path = Path(__file__).parent / "../docs/resources"
     if not base_path.exists():
         print(f"Error: {base_path} directory not found.")
         sys.exit(1)
@@ -70,7 +70,7 @@ def build_structure():
                     type_display_name = type_map[type_dir.name]
                     
                     type_data = {
-                        "path": f"resources/{cat_dir.name}/{type_dir.name}/", # Relative to 'pages/'
+                        "path": f"resources/{cat_dir.name}/{type_dir.name}/", # Relative to 'docs/'
                         "content": []
                     }
 
@@ -103,8 +103,8 @@ def build_structure():
 
                     structure[cat_name][type_display_name] = type_data
 
-    # Write JSON output to pages/structure.json, relative to the current working directory (project root)
-    structure_json_path = Path("pages/structure.json")
+    # Write JSON output to docs/structure.json, relative to the current working directory (project root)
+    structure_json_path = Path("docs/structure.json")
     with open(structure_json_path, "w", encoding="utf-8") as jf:
         json.dump(structure, jf, indent=2)
 

@@ -10,5 +10,5 @@ echo "You can access your local changes at: http://localhost:8000"
 echo "Press Ctrl+C to stop the server."
 echo ""
 
-# Change directory to 'pages' and then run the server
-(cd pages && python3 -m http.server 8000)
+# Change directory to 'docs' and then run the server
+(cd docs && python3 -m http.server 8000)
