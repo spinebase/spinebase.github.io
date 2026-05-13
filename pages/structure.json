@@ -1,0 +1,683 @@
+{
+  "Full Spine": {
+    "MRI Scan": {
+      "path": "resources/full/mri/",
+      "content": [
+        {
+          "name": "Block Vertebra Assessment (Fusion Length And Canal Dimensions)",
+          "index": "Block Vertebra Assessment (fusion length and canal dimensions)/index.html",
+          "thumbnail": "Block Vertebra Assessment (fusion length and canal dimensions)/thumbnail.png"
+        },
+        {
+          "name": "Chiari Malformation",
+          "index": "Chiari malformation/index.html",
+          "thumbnail": "Chiari malformation/thumbnail.png"
+        },
+        {
+          "name": "Conus Medullaris Level And Filum Terminale Thickness (Tethered Cord)",
+          "index": "Conus Medullaris Level and Filum Terminale Thickness (Tethered Cord)/index.html",
+          "thumbnail": "Conus Medullaris Level and Filum Terminale Thickness (Tethered Cord)/thumbnail.png"
+        },
+        {
+          "name": "Diastematomyelia",
+          "index": "Diastematomyelia/index.html",
+          "thumbnail": "Diastematomyelia/thumbnail.png"
+        },
+        {
+          "name": "Hemivertebra Morphometry (Wedge Angle, Segmentation)",
+          "index": "Hemivertebra Morphometry (wedge angle, segmentation)/index.html",
+          "thumbnail": "Hemivertebra Morphometry (wedge angle, segmentation)/thumbnail.png"
+        },
+        {
+          "name": "Lipoma Or Dermal Sinus Tract",
+          "index": "Lipoma or Dermal Sinus Tract/index.html",
+          "thumbnail": "Lipoma or Dermal Sinus Tract/thumbnail.png"
+        },
+        {
+          "name": "Rib Vertebra Angle Difference (Rvad)",
+          "index": "Rib-Vertebra Angle Difference (RVAD)/index.html",
+          "thumbnail": "Rib-Vertebra Angle Difference (RVAD)/thumbnail.png"
+        },
+        {
+          "name": "Syringomyelia",
+          "index": "Syringomyelia/index.html",
+          "thumbnail": "Syringomyelia/thumbnail.png"
+        }
+      ]
+    },
+    "X-Ray": {
+      "path": "resources/full/xray/",
+      "content": [
+        {
+          "name": "Ao Spine Deformity Classification",
+          "index": "AO Spine Deformity Classification/index.html",
+          "thumbnail": "AO Spine Deformity Classification/thumbnail.png"
+        },
+        {
+          "name": "Apical Vertebral Rotation (Avr)   Nash Moe Classification",
+          "index": "Apical Vertebral Rotation (AVR) - Nash-Moe classification/index.html",
+          "thumbnail": "Apical Vertebral Rotation (AVR) - Nash-Moe classification/thumbnail.png"
+        },
+        {
+          "name": "Apical Vertebral Translation (Avt)",
+          "index": "Apical Vertebral Translation (AVT)/index.html",
+          "thumbnail": "Apical Vertebral Translation (AVT)/thumbnail.png"
+        },
+        {
+          "name": "C2 C7 Sagittal Vertical Axis (Csva) (Cervical Contribution)",
+          "index": "C2-C7 Sagittal Vertical Axis (cSVA) (cervical contribution)/index.html",
+          "thumbnail": "C2-C7 Sagittal Vertical Axis (cSVA) (cervical contribution)/thumbnail.png"
+        },
+        {
+          "name": "Cincinnati Pumc Classification Systems",
+          "index": "Cincinnati-PUMC Classification Systems/index.html",
+          "thumbnail": "Cincinnati-PUMC Classification Systems/thumbnail.png"
+        },
+        {
+          "name": "Cobb Angle",
+          "index": "Cobb Angle/index.html",
+          "thumbnail": "Cobb Angle/thumbnail.png"
+        },
+        {
+          "name": "Coronal Balance",
+          "index": "Coronal Balance/index.html",
+          "thumbnail": "Coronal Balance/thumbnail.png"
+        },
+        {
+          "name": "Global Tilt (C7 Vertical Tilt + Pelvic Tilt)",
+          "index": "Global Tilt (C7 vertical tilt + pelvic tilt)/index.html",
+          "thumbnail": "Global Tilt (C7 vertical tilt + pelvic tilt)/thumbnail.png"
+        },
+        {
+          "name": "King Moe Classification",
+          "index": "King-Moe Classification/index.html",
+          "thumbnail": "King-Moe Classification/thumbnail.png"
+        },
+        {
+          "name": "L1 Pelvic Angle (L1Pa)",
+          "index": "L1 Pelvic Angle (L1PA)/index.html",
+          "thumbnail": "L1 Pelvic Angle (L1PA)/thumbnail.png"
+        },
+        {
+          "name": "Lenke Classification",
+          "index": "Lenke Classification/index.html",
+          "thumbnail": "Lenke Classification/thumbnail.png"
+        },
+        {
+          "name": "Rib Pelvis Distance",
+          "index": "Rib-Pelvis Distance/index.html",
+          "thumbnail": "Rib-Pelvis Distance/thumbnail.png"
+        },
+        {
+          "name": "Risser Sign",
+          "index": "Risser Sign/index.html",
+          "thumbnail": "Risser Sign/thumbnail.png"
+        },
+        {
+          "name": "Sagittal Vertical Axis (Sva)",
+          "index": "Sagittal Vertical Axis (SVA)/index.html",
+          "thumbnail": "Sagittal Vertical Axis (SVA)/thumbnail.png"
+        },
+        {
+          "name": "Sanders Maturity Score",
+          "index": "Sanders Maturity Score/index.html",
+          "thumbnail": "Sanders Maturity Score/thumbnail.png"
+        },
+        {
+          "name": "Side Bending Films (Coronal Flexibility)",
+          "index": "Side-bending Films (Coronal flexibility)/index.html",
+          "thumbnail": "Side-bending Films (Coronal flexibility)/thumbnail.png"
+        },
+        {
+          "name": "Srs Sagittal Deformity Classification",
+          "index": "SRS-Sagittal Deformity Classification/index.html",
+          "thumbnail": "SRS-Sagittal Deformity Classification/thumbnail.png"
+        },
+        {
+          "name": "Srs\u2013Schwab Classification (2012)",
+          "index": "SRS\u2013Schwab Classification (2012)/index.html",
+          "thumbnail": "SRS\u2013Schwab Classification (2012)/thumbnail.png"
+        },
+        {
+          "name": "T1 Pelvic Angle (T1Pa)",
+          "index": "T1 Pelvic Angle (T1PA)/index.html",
+          "thumbnail": "T1 Pelvic Angle (T1PA)/thumbnail.png"
+        },
+        {
+          "name": "T4 Pelvic Angle (T4Pa)",
+          "index": "T4 Pelvic Angle (T4PA)/index.html",
+          "thumbnail": "T4 Pelvic Angle (T4PA)/thumbnail.png"
+        },
+        {
+          "name": "Thoracic Kyphosis (T5\u2013T12 Cobb)",
+          "index": "Thoracic Kyphosis (T5\u2013T12 Cobb)/index.html",
+          "thumbnail": "Thoracic Kyphosis (T5\u2013T12 Cobb)/thumbnail.png"
+        },
+        {
+          "name": "Traction Films   Push Prone Films",
+          "index": "Traction Films - Push-prone Films/index.html",
+          "thumbnail": "Traction Films - Push-prone Films/thumbnail.png"
+        },
+        {
+          "name": "Trunk Shift",
+          "index": "Trunk Shift/index.html",
+          "thumbnail": "Trunk Shift/thumbnail.png"
+        }
+      ]
+    }
+  },
+  "Lumbar Spine": {
+    "CT Scan": {
+      "path": "resources/lumbar/ct/",
+      "content": [
+        {
+          "name": "Anteroposterior (Ap) Canal Diameter",
+          "index": "Anteroposterior (AP) Canal Diameter/index.html",
+          "thumbnail": "Anteroposterior (AP) Canal Diameter/thumbnail.png"
+        },
+        {
+          "name": "Apical Vertebral Translation (Avt)",
+          "index": "Apical Vertebral Translation (AVT)/index.html",
+          "thumbnail": "Apical Vertebral Translation (AVT)/thumbnail.png"
+        },
+        {
+          "name": "Axial Rotation",
+          "index": "Axial Rotation/index.html",
+          "thumbnail": "Axial Rotation/thumbnail.png"
+        },
+        {
+          "name": "Cross Sectional Area Of Canal (Csa)",
+          "index": "Cross-Sectional Area of Canal (CSA)/index.html",
+          "thumbnail": "Cross-Sectional Area of Canal (CSA)/thumbnail.png"
+        },
+        {
+          "name": "Facet Join Orientation And Tropism",
+          "index": "Facet Join Orientation and Tropism/index.html",
+          "thumbnail": "Facet Join Orientation and Tropism/thumbnail.png"
+        },
+        {
+          "name": "Foraminal Width   Height",
+          "index": "Foraminal Width - Height/index.html",
+          "thumbnail": "Foraminal Width - Height/thumbnail.png"
+        },
+        {
+          "name": "Interpedicular Distance",
+          "index": "Interpedicular Distance/index.html",
+          "thumbnail": "Interpedicular Distance/thumbnail.png"
+        },
+        {
+          "name": "Kyphotic Angle",
+          "index": "Kyphotic Angle/index.html",
+          "thumbnail": "Kyphotic Angle/thumbnail.png"
+        },
+        {
+          "name": "Lateral Recess Depth Width",
+          "index": "Lateral Recess Depth-Width/index.html",
+          "thumbnail": "Lateral Recess Depth-Width/thumbnail.png"
+        },
+        {
+          "name": "Pars Interarticularis Defects",
+          "index": "Pars Interarticularis Defects/index.html",
+          "thumbnail": "Pars Interarticularis Defects/thumbnail.png"
+        },
+        {
+          "name": "Pedicle Dimensions",
+          "index": "Pedicle Dimensions/index.html",
+          "thumbnail": "Pedicle Dimensions/thumbnail.png"
+        },
+        {
+          "name": "Sacral Morphometry",
+          "index": "Sacral Morphometry/index.html",
+          "thumbnail": "Sacral Morphometry/thumbnail.png"
+        },
+        {
+          "name": "Sagittal Index (Anterior Posterior Height Ratio)",
+          "index": "Sagittal Index (Anterior-Posterior Height Ratio)/index.html",
+          "thumbnail": "Sagittal Index (Anterior-Posterior Height Ratio)/thumbnail.png"
+        },
+        {
+          "name": "Vertebral Body Dimensions",
+          "index": "Vertebral Body Dimensions/index.html",
+          "thumbnail": "Vertebral Body Dimensions/thumbnail.png"
+        }
+      ]
+    },
+    "MRI Scan": {
+      "path": "resources/lumbar/mri/",
+      "content": [
+        {
+          "name": "Anteroposterior (Ap) Canal Diameter",
+          "index": "Anteroposterior (AP) Canal Diameter/index.html",
+          "thumbnail": "Anteroposterior (AP) Canal Diameter/thumbnail.png"
+        },
+        {
+          "name": "Cauda Equina Nerve Root Area",
+          "index": "Cauda Equina Nerve Root Area/index.html",
+          "thumbnail": "Cauda Equina Nerve Root Area/thumbnail.png"
+        },
+        {
+          "name": "Conus Medullaris Level",
+          "index": "Conus Medullaris Level/index.html",
+          "thumbnail": "Conus Medullaris Level/thumbnail.png"
+        },
+        {
+          "name": "Cross Sectional Area (Csa) Of Spinal Canal",
+          "index": "Cross-Sectional Area (CSA) of Spinal Canal/index.html",
+          "thumbnail": "Cross-Sectional Area (CSA) of Spinal Canal/thumbnail.png"
+        },
+        {
+          "name": "Disc Height Index (Dhi)",
+          "index": "Disc-Height Index (DHI)/index.html",
+          "thumbnail": "Disc-Height Index (DHI)/thumbnail.png"
+        },
+        {
+          "name": "Disc Herniation Size",
+          "index": "Disc Herniation Size/index.html",
+          "thumbnail": "Disc Herniation Size/thumbnail.png"
+        },
+        {
+          "name": "Dural Sac Csa",
+          "index": "Dural Sac CSA/index.html",
+          "thumbnail": "Dural Sac CSA/thumbnail.png"
+        },
+        {
+          "name": "Epidural Fat Thickness",
+          "index": "Epidural Fat Thickness/index.html",
+          "thumbnail": "Epidural Fat Thickness/thumbnail.png"
+        },
+        {
+          "name": "Filum Terminale Thickness",
+          "index": "Filum Terminale Thickness/index.html",
+          "thumbnail": "Filum Terminale Thickness/thumbnail.png"
+        },
+        {
+          "name": "Foraminal Height And Width",
+          "index": "Foraminal Height and Width/index.html",
+          "thumbnail": "Foraminal Height and Width/thumbnail.png"
+        },
+        {
+          "name": "High Intensity Zone (Hiz)",
+          "index": "High-intensity Zone (HIZ)/index.html",
+          "thumbnail": "High-intensity Zone (HIZ)/thumbnail.png"
+        },
+        {
+          "name": "Lateral Recess Width Depth",
+          "index": "Lateral Recess Width-Depth/index.html",
+          "thumbnail": "Lateral Recess Width-Depth/thumbnail.png"
+        },
+        {
+          "name": "Lumbar Disc Herniation \u2013Zone Classification (Central, Paracentral, Foraminal, Extraforaminal)",
+          "index": "Lumbar Disc Herniation \u2013Zone Classification (Central, Paracentral, Foraminal, Extraforaminal)/index.html",
+          "thumbnail": "Lumbar Disc Herniation \u2013Zone Classification (Central, Paracentral, Foraminal, Extraforaminal)/thumbnail.png"
+        },
+        {
+          "name": "Marrow Signal Changes",
+          "index": "Marrow Signal Changes/index.html",
+          "thumbnail": "Marrow Signal Changes/thumbnail.png"
+        },
+        {
+          "name": "Modic Endplate Changes (Type I, Ii, Iii)",
+          "index": "Modic Endplate Changes (Type I, II, III)/index.html",
+          "thumbnail": "Modic Endplate Changes (Type I, II, III)/thumbnail.png"
+        },
+        {
+          "name": "Pfirrmann Classification (I V)",
+          "index": "Pfirrmann Classification (I-V)/index.html",
+          "thumbnail": "Pfirrmann Classification (I-V)/thumbnail.png"
+        },
+        {
+          "name": "Vertebral Bone Quality (Vbq) Score",
+          "index": "Vertebral Bone Quality (VBQ) Score/index.html",
+          "thumbnail": "Vertebral Bone Quality (VBQ) Score/thumbnail.png"
+        },
+        {
+          "name": "Vertebral Endplate Defects",
+          "index": "Vertebral Endplate Defects/index.html",
+          "thumbnail": "Vertebral Endplate Defects/thumbnail.png"
+        }
+      ]
+    },
+    "X-Ray": {
+      "path": "resources/lumbar/xray/",
+      "content": [
+        {
+          "name": "Angulation (Segmental Rotation)",
+          "index": "Angulation (segmental rotation)/index.html",
+          "thumbnail": "Angulation (segmental rotation)/thumbnail.png"
+        },
+        {
+          "name": "Boxall\u2019S Angle (Sacral Inclination)",
+          "index": "Boxall\u2019s Angle (Sacral Inclination)/index.html",
+          "thumbnail": "Boxall\u2019s Angle (Sacral Inclination)/thumbnail.png"
+        },
+        {
+          "name": "Canal Compromise Percentage",
+          "index": "Canal Compromise Percentage/index.html",
+          "thumbnail": "Canal Compromise Percentage/thumbnail.png"
+        },
+        {
+          "name": "Disc Height Index (Dhi)",
+          "index": "Disc Height Index (DHI)/index.html",
+          "thumbnail": "Disc Height Index (DHI)/thumbnail.png"
+        },
+        {
+          "name": "Ferguson\u2019S Line",
+          "index": "Ferguson\u2019s Line/index.html",
+          "thumbnail": "Ferguson\u2019s Line/thumbnail.png"
+        },
+        {
+          "name": "George\u2019S Line (Posterior Vertebral Body Line)",
+          "index": "George\u2019s Line (Posterior Vertebral Body Line)/index.html",
+          "thumbnail": "George\u2019s Line (Posterior Vertebral Body Line)/thumbnail.png"
+        },
+        {
+          "name": "Lumbar Lordosis",
+          "index": "Lumbar Lordosis/index.html",
+          "thumbnail": "Lumbar Lordosis/thumbnail.png"
+        },
+        {
+          "name": "Lumbosacral Angle (Ferguson\u2019S Angle Sacral Inclination)",
+          "index": "Lumbosacral Angle (Ferguson\u2019s Angle-Sacral Inclination)/index.html",
+          "thumbnail": "Lumbosacral Angle (Ferguson\u2019s Angle-Sacral Inclination)/thumbnail.png"
+        },
+        {
+          "name": "Mcnab\u2019S Line",
+          "index": "Mcnab\u2019s Line/index.html",
+          "thumbnail": "Mcnab\u2019s Line/thumbnail.png"
+        },
+        {
+          "name": "Meyerding Classification",
+          "index": "Meyerding Classification/index.html",
+          "thumbnail": "Meyerding Classification/thumbnail.png"
+        },
+        {
+          "name": "Pelvic Incidence",
+          "index": "Pelvic Incidence/index.html",
+          "thumbnail": "Pelvic Incidence/thumbnail.png"
+        },
+        {
+          "name": "Pelvic Incidence Slip Angle Relationship",
+          "index": "Pelvic Incidence-Slip Angle Relationship/index.html",
+          "thumbnail": "Pelvic Incidence-Slip Angle Relationship/thumbnail.png"
+        },
+        {
+          "name": "Pelvic Tilt (Pt)",
+          "index": "Pelvic Tilt (PT)/index.html",
+          "thumbnail": "Pelvic Tilt (PT)/thumbnail.png"
+        },
+        {
+          "name": "Pi Ll Mismatch",
+          "index": "PI-LL Mismatch/index.html",
+          "thumbnail": "PI-LL Mismatch/thumbnail.png"
+        },
+        {
+          "name": "Sacral Slope (Ss)",
+          "index": "Sacral Slope (SS)/index.html",
+          "thumbnail": "Sacral Slope (SS)/thumbnail.png"
+        },
+        {
+          "name": "Segmental Lordosis",
+          "index": "Segmental Lordosis/index.html",
+          "thumbnail": "Segmental Lordosis/thumbnail.png"
+        },
+        {
+          "name": "Slip Angle Lumbosacral Kyphosis",
+          "index": "Slip Angle-Lumbosacral Kyphosis/index.html",
+          "thumbnail": "Slip Angle-Lumbosacral Kyphosis/thumbnail.png"
+        },
+        {
+          "name": "Translation",
+          "index": "Translation/index.html",
+          "thumbnail": "Translation/thumbnail.png"
+        },
+        {
+          "name": "Ullman\u2019S Line",
+          "index": "Ullman\u2019s Line/index.html",
+          "thumbnail": "Ullman\u2019s Line/thumbnail.png"
+        }
+      ]
+    }
+  },
+  "Cervical Spine": {
+    "CT Scan": {
+      "path": "resources/cervical/ct/",
+      "content": [
+        {
+          "name": "Angulation Between Segments",
+          "index": "Angulation between Segments/index.html",
+          "thumbnail": "Angulation between Segments/thumbnail.png"
+        },
+        {
+          "name": "Atlantodental Interval (Adi)",
+          "index": "Atlantodental Interval (ADI)/index.html",
+          "thumbnail": "Atlantodental Interval (ADI)/thumbnail.png"
+        },
+        {
+          "name": "Basion\u2013Axial Interval (Bai)",
+          "index": "Basion\u2013Axial Interval (BAI)/index.html",
+          "thumbnail": "Basion\u2013Axial Interval (BAI)/thumbnail.png"
+        },
+        {
+          "name": "Basion\u2013Dens Interval (Bdi)",
+          "index": "Basion\u2013Dens Interval (BDI)/index.html",
+          "thumbnail": "Basion\u2013Dens Interval (BDI)/thumbnail.png"
+        },
+        {
+          "name": "Canal Occupying Ratio (Cor)",
+          "index": "Canal Occupying Ratio (COR)/index.html",
+          "thumbnail": "Canal Occupying Ratio (COR)/thumbnail.png"
+        },
+        {
+          "name": "Clivo Axial Angle",
+          "index": "Clivo-Axial Angle/index.html",
+          "thumbnail": "Clivo-Axial Angle/thumbnail.png"
+        },
+        {
+          "name": "Facet Joint Overlap (Percent Overlap Method)",
+          "index": "Facet Joint Overlap (Percent Overlap Method)/index.html",
+          "thumbnail": "Facet Joint Overlap (Percent Overlap Method)/thumbnail.png"
+        },
+        {
+          "name": "Facet Joint Step Off Dislocation",
+          "index": "Facet Joint Step-Off-Dislocation/index.html",
+          "thumbnail": "Facet Joint Step-Off-Dislocation/thumbnail.png"
+        },
+        {
+          "name": "Grabb Oakes Measurement (Pb   C2 Line)",
+          "index": "Grabb-Oakes Measurement (pB - C2 line)/index.html",
+          "thumbnail": "Grabb-Oakes Measurement (pB - C2 line)/thumbnail.png"
+        },
+        {
+          "name": "Occipital Condyle\u2013C1 Interval (Cci)",
+          "index": "Occipital Condyle\u2013C1 Interval (CCI)/index.html",
+          "thumbnail": "Occipital Condyle\u2013C1 Interval (CCI)/thumbnail.png"
+        },
+        {
+          "name": "Posterior Atlantodental Interval (Padi)",
+          "index": "Posterior Atlantodental Interval (PADI)/index.html",
+          "thumbnail": "Posterior Atlantodental Interval (PADI)/thumbnail.png"
+        },
+        {
+          "name": "Power\u2019S Ratio",
+          "index": "Power\u2019s Ratio/index.html",
+          "thumbnail": "Power\u2019s Ratio/thumbnail.png"
+        },
+        {
+          "name": "Sagittal Vertical Axis (Sva)",
+          "index": "Sagittal Vertical Axis (SVA)/index.html",
+          "thumbnail": "Sagittal Vertical Axis (SVA)/thumbnail.png"
+        },
+        {
+          "name": "Translation On Sagittal Reconstruction",
+          "index": "Translation on Sagittal Reconstruction/index.html",
+          "thumbnail": "Translation on Sagittal Reconstruction/thumbnail.png"
+        }
+      ]
+    },
+    "MRI Scan": {
+      "path": "resources/cervical/mri/",
+      "content": [
+        {
+          "name": "Compression Ratio (Ap Diameter  Transverse Diameter Of Cord)",
+          "index": "Compression Ratio (AP diameter  transverse diameter of cord)/index.html",
+          "thumbnail": "Compression Ratio (AP diameter  transverse diameter of cord)/thumbnail.png"
+        },
+        {
+          "name": "Cord Cross Sectional Area (Csa)",
+          "index": "Cord Cross-Sectional Area (CSA)/index.html",
+          "thumbnail": "Cord Cross-Sectional Area (CSA)/thumbnail.png"
+        },
+        {
+          "name": "Cross Sectional Canal Area",
+          "index": "Cross-Sectional Canal Area/index.html",
+          "thumbnail": "Cross-Sectional Canal Area/thumbnail.png"
+        },
+        {
+          "name": "Intramedullary T2 Hyperintensity Length (Mm Or # Of Vertebral Levels)",
+          "index": "Intramedullary T2 Hyperintensity Length (mm or # of vertebral levels)/index.html",
+          "thumbnail": "Intramedullary T2 Hyperintensity Length (mm or # of vertebral levels)/thumbnail.png"
+        },
+        {
+          "name": "Maximum Spinal Cord Compression",
+          "index": "Maximum Spinal Cord Compression/index.html",
+          "thumbnail": "Maximum Spinal Cord Compression/thumbnail.png"
+        },
+        {
+          "name": "Pavlov Torg (Canal Body Ratio)",
+          "index": "Pavlov-Torg (Canal-Body Ratio)/index.html",
+          "thumbnail": "Pavlov-Torg (Canal-Body Ratio)/thumbnail.png"
+        },
+        {
+          "name": "Presence Of T1 Hypointensity (Chronic Myelopathy Atrophy)",
+          "index": "Presence of T1 Hypointensity (chronic myelopathy-atrophy)/index.html",
+          "thumbnail": "Presence of T1 Hypointensity (chronic myelopathy-atrophy)/thumbnail.png"
+        },
+        {
+          "name": "Sagittal Canal Diameter",
+          "index": "Sagittal Canal Diameter/index.html",
+          "thumbnail": "Sagittal Canal Diameter/thumbnail.png"
+        }
+      ]
+    },
+    "X-Ray": {
+      "path": "resources/cervical/xray/",
+      "content": [
+        {
+          "name": "Angulation",
+          "index": "Angulation/index.html",
+          "thumbnail": "Angulation/thumbnail.png"
+        },
+        {
+          "name": "Atlantodental Interval (Adi)",
+          "index": "Atlantodental Interval (ADI)/index.html",
+          "thumbnail": "Atlantodental Interval (ADI)/thumbnail.png"
+        },
+        {
+          "name": "Basion Axial Interval",
+          "index": "Basion-Axial Interval/index.html",
+          "thumbnail": "Basion-Axial Interval/thumbnail.png"
+        },
+        {
+          "name": "Basion Dens Interval (Bdi)",
+          "index": "Basion-Dens Interval (BDI)/index.html",
+          "thumbnail": "Basion-Dens Interval (BDI)/thumbnail.png"
+        },
+        {
+          "name": "C2 C7 Translation",
+          "index": "C2-C7 Translation/index.html",
+          "thumbnail": "C2-C7 Translation/thumbnail.png"
+        },
+        {
+          "name": "C2 Slope",
+          "index": "C2 slope/index.html",
+          "thumbnail": "C2 slope/thumbnail.jpg"
+        },
+        {
+          "name": "C2 Tilt",
+          "index": "C2 Tilt/index.html",
+          "thumbnail": "C2 Tilt/thumbnail.png"
+        },
+        {
+          "name": "C2\u2013C7 Coronal Cobb Angle",
+          "index": "C2\u2013C7 Coronal Cobb Angle/index.html",
+          "thumbnail": "C2\u2013C7 Coronal Cobb Angle/thumbnail.png"
+        },
+        {
+          "name": "Cervical C2 7 Lordosis",
+          "index": "Cervical C2-7 lordosis/index.html",
+          "thumbnail": "Cervical C2-7 lordosis/thumbnail.png"
+        },
+        {
+          "name": "Chamberlain\u2019S Line   Mcgregor\u2019S Line",
+          "index": "Chamberlain\u2019s Line - McGregor\u2019s Line/index.html",
+          "thumbnail": "Chamberlain\u2019s Line - McGregor\u2019s Line/thumbnail.png"
+        },
+        {
+          "name": "George\u2019S Line (Posterior Cervical Line)",
+          "index": "George\u2019s Line (Posterior Cervical Line)/index.html",
+          "thumbnail": "George\u2019s Line (Posterior Cervical Line)/thumbnail.png"
+        },
+        {
+          "name": "Interpedicular Distance (Ipd)",
+          "index": "Interpedicular Distance (IPD)/index.html",
+          "thumbnail": "Interpedicular Distance (IPD)/thumbnail.png"
+        },
+        {
+          "name": "K Line",
+          "index": "K-Line/index.html",
+          "thumbnail": "K-Line/thumbnail.png"
+        },
+        {
+          "name": "Oc2 Angle (Occiput\u2013C2 Angle)",
+          "index": "OC2 Angle (Occiput\u2013C2 Angle)/index.html",
+          "thumbnail": "OC2 Angle (Occiput\u2013C2 Angle)/thumbnail.png"
+        },
+        {
+          "name": "Occipital Condyle\u2013C1 Interval (Cci)",
+          "index": "Occipital Condyle\u2013C1 Interval (CCI)/index.html",
+          "thumbnail": "Occipital Condyle\u2013C1 Interval (CCI)/thumbnail.png"
+        },
+        {
+          "name": "Posterior Atlantodental Interval (Padi)",
+          "index": "Posterior Atlantodental Interval (PADI)/index.html",
+          "thumbnail": "Posterior Atlantodental Interval (PADI)/thumbnail.png"
+        },
+        {
+          "name": "Power\u2019S Ratio",
+          "index": "Power\u2019s ratio/index.html",
+          "thumbnail": "Power\u2019s ratio/thumbnail.png"
+        },
+        {
+          "name": "Sagittal Canal Diameter",
+          "index": "Sagittal Canal Diameter/index.html",
+          "thumbnail": "Sagittal Canal Diameter/thumbnail.png"
+        },
+        {
+          "name": "Sagittal Vertical Axis (Sva)",
+          "index": "Sagittal Vertical Axis (SVA)/index.html",
+          "thumbnail": "Sagittal Vertical Axis (SVA)/thumbnail.png"
+        },
+        {
+          "name": "Spinolaminar Line",
+          "index": "Spinolaminar line/index.html",
+          "thumbnail": "Spinolaminar line/thumbnail.png"
+        },
+        {
+          "name": "Swischuk Line",
+          "index": "Swischuk Line/index.html",
+          "thumbnail": "Swischuk Line/thumbnail.png"
+        },
+        {
+          "name": "T1 Slope (T1S)",
+          "index": "T1 Slope (T1S)/index.html",
+          "thumbnail": "T1 Slope (T1S)/thumbnail.png"
+        },
+        {
+          "name": "Torg Pavlov Canal To Body Ratio",
+          "index": "Torg-Pavlov Canal-to-Body Ratio/index.html",
+          "thumbnail": "Torg-Pavlov Canal-to-Body Ratio/thumbnail.png"
+        }
+      ]
+    }
+  }
+}
