@@ -9,7 +9,7 @@ The app assumes a co-located file structure where the HTML, JSON, and resource f
 *   **`index.html` (The Shell):** Contains the persistent UI and CSS framework.
 *   **`app.js` (The Engine):** Contains all JavaScript logic and the search engine.
 *   **`about.html` (Standalone Content):** A dedicated HTML file for the "About Us" section.
-*   **Manifest (Local):** `./structure.json` (located in the `pages/` directory). Defines the navigation hierarchy.
+*   **Manifest (Local):** `./structure.json` (located in the `docs/` directory). Defines the navigation hierarchy.
     *   **Content Structure:** `structure.json` now contains objects for each content item, including `name`, `index` (path to HTML), and `thumbnail` (path to image), relative to the content type's base path.
 
 ## 3. Local Development & Security
@@ -17,7 +17,7 @@ Modern browsers block `fetch()` requests when files are opened directly via the 
 
 *   **Development Workflow:** A `start_dev.sh` script is provided in the project root to streamline local development. This script:
     1.  Automatically runs `scripts/generate.py` to ensure `structure.json` is up-to-date and HTML files are processed.
-    2.  Starts a Python HTTP server (`python3 -m http.server 8000`) from within the `pages/` directory, making the application accessible at `http://localhost:8000`.
+    2.  Starts a Python HTTP server (`python3 -m http.server 8000`) from within the `docs/` directory, making the application accessible at `http://localhost:8000`.
     *   **Usage:** Execute `./start_dev.sh` from the project's root directory.
     *   **Note:** Press `Ctrl+C` in the terminal to stop the server.
 
@@ -36,9 +36,9 @@ Modern browsers block `fetch()` requests when files are opened directly via the 
 *   **Dynamic Path Resolution:** `app.js` now correctly constructs full paths to content HTML and images by combining the base path from `structure.json` with the `index` and `thumbnail` properties of each content item. This resolves "File not found" errors due to incorrect path concatenation.
 
 ## 6. Folder Hierarchy Requirements
-*   **Structure:** Physical folder paths for content (e.g., `cervical`, `full`, `lumbar`) must now be located under the `pages/resources/` directory.
-*   **Leaf Content:** Subfolders within `pages/resources/{category}/{type}/` must contain `index.html` and `thumbnail.png`.
-*   **Assets:** Global assets like `about-us.png` are located directly in `pages/assets/`.
+*   **Structure:** Physical folder paths for content (e.g., `cervical`, `full`, `lumbar`) must now be located under the `docs/resources/` directory.
+*   **Leaf Content:** Subfolders within `docs/resources/{category}/{type}/` must contain `index.html` and `thumbnail.png`.
+*   **Assets:** Global assets like `about-us.png` are located directly in `docs/assets/`.
 
 ## 7. Search Functionality (Fuzzy Match)
 *   **Index Generation:** Flattens the tree into a searchable array on initialization, now correctly indexing `name`, `index`, and `thumbnail` from the `structure.json` item objects.
