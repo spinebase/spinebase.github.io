@@ -47,7 +47,8 @@
         }
         
         .brand-row { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px 5px 20px; gap: 15px; }
-        .brand-banner { font-size: 22px; font-weight: 800; color: var(--primary); cursor: pointer; }
+        .brand-banner { cursor: pointer; display: flex; align-items: center; flex-shrink: 0; }
+        .brand-banner img { height: 36px; width: auto; display: block; }
         .about-link { font-size: 13px; font-weight: 700; color: var(--muted); cursor: pointer; text-transform: uppercase; }
         
         .brand-row.search-active .brand-banner,
@@ -104,7 +105,7 @@
     <div id="app">
         <header>
             <div class="brand-row" id="brand-row">
-                <div class="brand-banner" onclick="resetToHome()">SpineBase</div>
+                <div class="brand-banner" onclick="resetToHome()"><img src="./assets/spinebase-logo.png" alt="SpineBase"></div>
                 <div class="search-container">
                     <input type="text" id="search-input" placeholder="Search measurements..." autocomplete="off">
                     <div id="search-results" class="search-results"></div>
